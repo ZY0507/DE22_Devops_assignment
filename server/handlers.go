@@ -9,5 +9,3 @@ func (s server) helloHandler() http.Handler {
 		w.Write([]byte("Hello, World!"))
 	})
 }
-
-// I add a comment here
